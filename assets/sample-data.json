@@ -1,0 +1,73 @@
+{
+  "students": [
+    { "id": "s1", "roll": "2117", "name": "Emma Wilson" },
+    { "id": "s2", "roll": "2118", "name": "Liam Brown" },
+    { "id": "s3", "roll": "2119", "name": "Olivia Davis" },
+    { "id": "s4", "roll": "2120", "name": "Noah Miller" },
+    { "id": "s5", "roll": "2121", "name": "Ava Martinez" },
+    { "id": "s6", "roll": "2122", "name": "Sophia Lee" }
+  ],
+  "subjects": [
+    { "id": "sub1", "name": "Mathematics" },
+    { "id": "sub2", "name": "Physics" },
+    { "id": "sub3", "name": "English" }
+  ],
+  "assessments": [
+    { "id": "a1", "subjectId": "sub1", "name": "Quiz 1", "max": 20, "weight": 10 },
+    { "id": "a2", "subjectId": "sub1", "name": "Midterm", "max": 100, "weight": 40 },
+    { "id": "a3", "subjectId": "sub1", "name": "Final", "max": 100, "weight": 50 },
+    { "id": "a4", "subjectId": "sub2", "name": "Quiz 1", "max": 20, "weight": 10 },
+    { "id": "a5", "subjectId": "sub2", "name": "Final", "max": 100, "weight": 90 },
+    { "id": "a6", "subjectId": "sub3", "name": "Assignment", "max": 50, "weight": 20 },
+    { "id": "a7", "subjectId": "sub3", "name": "Final", "max": 100, "weight": 80 }
+  ],
+  "marks": [
+    {"studentId":"s1","assessmentId":"a1","mark":16},
+    {"studentId":"s1","assessmentId":"a2","mark":78},
+    {"studentId":"s1","assessmentId":"a3","mark":85},
+    {"studentId":"s1","assessmentId":"a4","mark":15},
+    {"studentId":"s1","assessmentId":"a5","mark":82},
+    {"studentId":"s1","assessmentId":"a6","mark":40},
+    {"studentId":"s1","assessmentId":"a7","mark":88},
+
+    {"studentId":"s2","assessmentId":"a1","mark":12},
+    {"studentId":"s2","assessmentId":"a2","mark":65},
+    {"studentId":"s2","assessmentId":"a3","mark":72},
+    {"studentId":"s2","assessmentId":"a4","mark":10},
+    {"studentId":"s2","assessmentId":"a5","mark":60},
+    {"studentId":"s2","assessmentId":"a6","mark":30},
+    {"studentId":"s2","assessmentId":"a7","mark":70},
+
+    {"studentId":"s3","assessmentId":"a1","mark":18},
+    {"studentId":"s3","assessmentId":"a2","mark":88},
+    {"studentId":"s3","assessmentId":"a3","mark":92},
+    {"studentId":"s3","assessmentId":"a4","mark":17},
+    {"studentId":"s3","assessmentId":"a5","mark":90},
+    {"studentId":"s3","assessmentId":"a6","mark":45},
+    {"studentId":"s3","assessmentId":"a7","mark":95},
+
+    {"studentId":"s4","assessmentId":"a1","mark":9},
+    {"studentId":"s4","assessmentId":"a2","mark":48},
+    {"studentId":"s4","assessmentId":"a3","mark":55},
+    {"studentId":"s4","assessmentId":"a4","mark":8},
+    {"studentId":"s4","assessmentId":"a5","mark":50},
+    {"studentId":"s4","assessmentId":"a6","mark":25},
+    {"studentId":"s4","assessmentId":"a7","mark":60},
+
+    {"studentId":"s5","assessmentId":"a1","mark":14},
+    {"studentId":"s5","assessmentId":"a2","mark":72},
+    {"studentId":"s5","assessmentId":"a3","mark":78},
+    {"studentId":"s5","assessmentId":"a4","mark":12},
+    {"studentId":"s5","assessmentId":"a5","mark":68},
+    {"studentId":"s5","assessmentId":"a6","mark":36},
+    {"studentId":"s5","assessmentId":"a7","mark":76},
+
+    {"studentId":"s6","assessmentId":"a1","mark":17},
+    {"studentId":"s6","assessmentId":"a2","mark":80},
+    {"studentId":"s6","assessmentId":"a3","mark":86},
+    {"studentId":"s6","assessmentId":"a4","mark":16},
+    {"studentId":"s6","assessmentId":"a5","mark":85},
+    {"studentId":"s6","assessmentId":"a6","mark":42},
+    {"studentId":"s6","assessmentId":"a7","mark":90}
+  ]
+}
